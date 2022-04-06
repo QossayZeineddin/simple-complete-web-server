@@ -1,6 +1,6 @@
 # simple-complete-web-server
 
- Using socket programming, implement a simple but a complete web server in python or java or C that is listening on port 9000. The user types in the browser something like http://localhost:9000/ or http://localhost:9000/index.html or http://localhost:9000/image.png, etc
+ Using socket programming, implement a simple but a complete web server in python that is listening on port 9000. The user types in the browser something like http://localhost:9000/ or http://localhost:9000/index.html or http://localhost:9000/image.png, etc
 The program should check 
     1- if the request is / or /index.html (for example localhost:9000/ or localhost:9000/index.html) then the server should send index.html file with Content-Type: text/html. 
 The index.html file should contain 
